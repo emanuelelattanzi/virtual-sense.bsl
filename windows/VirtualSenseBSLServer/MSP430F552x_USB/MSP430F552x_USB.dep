@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1737041591</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\UsbApi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cstartup.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\UsbIsr.r43</file>
+      <file>$PROJ_DIR$\..\API\BSL430_API.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\defUSB.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usbapi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_USB_PI.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_UCS.r43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\BSL430_PI.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\Proj_Settings.h</file>
+      <file>$PROJ_DIR$\BSL_Device_File.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\device.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\msp430x552x.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\types.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\hal_UCS.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usb.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\MSP430F552x_USB.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_UCS.pbi</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\hal_UCS.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\cstartup.s43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\BSL430_USB_PI.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\descriptors.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbHidReq.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usb.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbApi.c</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbIsr.c</file>
+      <file>$PROJ_DIR$\..\API\BSL430_API.c</file>
+      <file>$PROJ_DIR$\BSL430_Low_Level_Init.s43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_USB_PI.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\UsbApi.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\UsbIsr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\UsbHidReq.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\descriptors.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\descriptors.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\UsbHidReq.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\hal_UCS.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\cstartup.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\BSL430_USB_PI.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 14 10 17 15 11 13 4 20 16 5 19 9 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\descriptors.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbHidReq.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbApi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbIsr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\API\BSL430_API.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BSL430_Low_Level_Init.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,25 @@
+﻿Compilazione avviata 26/11/2012 16:24:03.
+     1>Progetto "D:\Documenti\WORK\Sensori\VirtualSense\VirtualSense\BSL_Files\BSL_5xx_family\BSL_Scripter\BSL_Scripter\BSL_Scripter\BSL_Scripter.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt BSL_Interface.c
+         BSL_Interface.c
+     1>d:\documenti\work\sensori\virtualsense\virtualsense\bsl_files\bsl_5xx_family\bsl_scripter\bsl_scripter\bsl_scripter\bsl_interface.c(185): warning C4113: 'unsigned char (__cdecl *)(unsigned long,unsigned long)' differisce da 'unsigned char (__cdecl *)(unsigned long,unsigned long,unsigned char *)' nell'elenco di parametri
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documenti\WORK\Sensori\VirtualSense\VirtualSense\BSL_Files\BSL_5xx_family\BSL_Scripter\BSL_Scripter\Debug\BSL_Scripter.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\ hid.lib hidclass.lib hidparse.lib Setupapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documenti\WORK\Sensori\VirtualSense\VirtualSense\BSL_Files\BSL_5xx_family\BSL_Scripter\BSL_Scripter\Debug\BSL_Scripter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documenti\WORK\Sensori\VirtualSense\VirtualSense\BSL_Files\BSL_5xx_family\BSL_Scripter\BSL_Scripter\Debug\BSL_Scripter.lib" /MACHINE:X86 Debug\BSL_Commands_5xx.obj
+         Debug\BSL_Commands_ROM.obj
+         Debug\BSL_Interface.obj
+         Debug\BSL_IO_UART.obj
+         Debug\BSL_IO_USB.obj
+         Debug\BSL_UART_Protocol_5xx.obj
+         Debug\BSL_UART_Protocol_ROM.obj
+         Debug\BSL_USB_Protocol_5xx.obj
+         Debug\CRC.obj
+         Debug\HidDevice.obj
+         Debug\main.obj
+         Debug\TextFileIO.obj
+         BSL_Scripter.vcxproj -> D:\Documenti\WORK\Sensori\VirtualSense\VirtualSense\BSL_Files\BSL_5xx_family\BSL_Scripter\BSL_Scripter\Debug\BSL_Scripter.exe
+     1>Compilazione progetto "D:\Documenti\WORK\Sensori\VirtualSense\VirtualSense\BSL_Files\BSL_5xx_family\BSL_Scripter\BSL_Scripter\BSL_Scripter\BSL_Scripter.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:01.88

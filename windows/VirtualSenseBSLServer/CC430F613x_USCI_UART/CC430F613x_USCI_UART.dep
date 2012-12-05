@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2140333097</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\CC430F613x_USCI_UART.d43</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</file>
+      <file>$PROJ_DIR$\..\API\BSL430_API.c</file>
+      <file>$PROJ_DIR$\BSL430_Low_Level_Init.s43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USCIA_UART\BSL430_PI_USCIA.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_USCIA.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_USCIA.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\API\BSL430_API.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BSL430_Low_Level_Init.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\USCIA_UART\BSL430_PI_USCIA.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

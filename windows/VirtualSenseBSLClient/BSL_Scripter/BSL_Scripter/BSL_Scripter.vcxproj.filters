@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c18d9927-69f2-4266-88cb-34f36b4bcc38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextFileIO.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_Command_Definitions_5xx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_Command_Definitions_ROM.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_Commands_5xx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_Commands_ROM.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_Definitions.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_Function_Pointers.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_Interface.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_IO_UART.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_IO_USB.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_UART_Protocol_5xx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_UART_Protocol_ROM.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSL_USB_Protocol_5xx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="HidDevice.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BSL_Commands_5xx.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSL_Commands_ROM.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSL_Interface.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSL_IO_UART.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSL_IO_USB.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSL_UART_Protocol_5xx.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSL_UART_Protocol_ROM.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSL_USB_Protocol_5xx.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HidDevice.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFileIO.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

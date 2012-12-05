@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\CC430F613x_USCI_UART\CC430F613x_USCI_UART.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\MSP430F543xA_TA_UART\MSP430F543xA_TA_UART.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\MSP430F552x_TA_UART\MSP430F552x_TA_UART.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\MSP430F552x_USB\MSP430F552x_USB.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

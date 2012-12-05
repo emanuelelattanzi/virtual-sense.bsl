@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>CC430F613x_USCI_UART/Debug</Project><Project>MSP430F543xA_TA_UART/Debug</Project><Project>MSP430F552x_TA_UART/Debug</Project><Project>MSP430F552x_USB/Debug</Project></CurrentConfigs><CurrentProj>MSP430F543xA_TA_UART</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>378</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1156</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+    <SourceBrowser/><Debug-Log><ColumnWidth0>18</ColumnWidth0><ColumnWidth1>1859</ColumnWidth1></Debug-Log><TerminalIO/><Find-in-Files><ColumnWidth0>664</ColumnWidth0><ColumnWidth1>94</ColumnWidth1><ColumnWidth2>1138</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1433-6563</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/CC430F613x_USCI_UART</ExpandedNode><ExpandedNode>CC430F613x_USCI_UART</ExpandedNode><ExpandedNode>MSP430F543xA_TA_UART</ExpandedNode><ExpandedNode>MSP430F543xA_TA_UART/BSL430_API.c</ExpandedNode><ExpandedNode>MSP430F543xA_TA_UART/Output</ExpandedNode><ExpandedNode>MSP430F552x_TA_UART</ExpandedNode><ExpandedNode>MSP430F552x_USB</ExpandedNode></NodeDict></Session>
+          </Tab>
+        <Tab><Identity>TabID-11401-15061</Identity><TabName>Source Browser</TabName><Factory>SourceBrowser</Factory><Session><TypeFilter>2147483647</TypeFilter><FileFilter>1</FileFilter></Session></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10613-6596</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-12438-24554</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-2040-30774</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Peripheral_Interfaces\USB\BSL430_USB_PI.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>495</SelStart><SelEnd>495</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP430F552x_USB\BSL_Device_File.h</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>2050</SelStart><SelEnd>2050</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP430F552x_USB\BSL430_Low_Level_Init.s43</Filename><XPos>0</XPos><YPos>87</YPos><SelStart>28031</SelStart><SelEnd>28031</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Command_Interpreter\BSL430_Command_Interpreter.c</Filename><XPos>0</XPos><YPos>125</YPos><SelStart>29928</SelStart><SelEnd>29937</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\API\BSL430_API.c</Filename><XPos>0</XPos><YPos>242</YPos><SelStart>30428</SelStart><SelEnd>30428</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP430F543xA_TA_UART\BSL_Device_File.h</Filename><XPos>0</XPos><YPos>82</YPos><SelStart>27465</SelStart><SelEnd>27465</SelEnd></Tab><ActiveTab>5</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP430F543xA_TA_UART\Debug\Exe\MSP430F543xA_TA_UART.d43</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\API\BSL430_API.h</Filename><XPos>0</XPos><YPos>230</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Kickstart\430\inc\msp430x54xA.h</Filename><XPos>0</XPos><YPos>64</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Peripheral_Interfaces\Timer_A_UART\BSL430_PI_TA.c</Filename><XPos>0</XPos><YPos>168</YPos><SelStart>30252</SelStart><SelEnd>30252</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP430F543xA_TA_UART\BSL430_Low_Level_Init.s43</Filename><XPos>0</XPos><YPos>220</YPos><SelStart>34013</SelStart><SelEnd>34013</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Command_Interpreter\BSL430_Command_Definitions.h</Filename><XPos>0</XPos><YPos>75</YPos><SelStart>27511</SelStart><SelEnd>27511</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Command_Interpreter\BSL430_Command_Interpreter.h</Filename><XPos>0</XPos><YPos>61</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0089a658><key>iaridepm.enu1</key></Toolbar-0089a658></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>603</Bottom><Right>452</Right><x>-2</x><y>-2</y><xscreen>240</xscreen><yscreen>169</yscreen><sizeHorzCX>125000</sizeHorzCX><sizeHorzCY>172449</sizeHorzCY><sizeVertCX>236458</sizeVertCX><sizeVertCY>617347</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>329</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>331</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>337755</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>172449</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
