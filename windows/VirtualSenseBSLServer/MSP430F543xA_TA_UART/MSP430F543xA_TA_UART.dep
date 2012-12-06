@@ -11,39 +11,48 @@
       <file>$PROJ_DIR$\..\API\BSL430_API.c</file>
       <file>$PROJ_DIR$\BSL430_Low_Level_Init.s43</file>
       <file>$PROJ_DIR$\BSL_Device_File.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_TA.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_TA.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.pbi</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\BSL430_PI.h</file>
-      <file>$PROJ_DIR$\..\API\BSL430_API.h</file>
-      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
-      <file>$PROJ_DIR$\Debug\Exe\MSP430F543xA_TA_UART.d43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_TA.pbi</file>
-      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Definitions.h</file>
-      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\MSP430F543xA_TA_UART.d43</file>
       <file>$PROJ_DIR$\Debug\Obj\MSP430F543xA_TA_UART.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\API\BSL430_API.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\BSL430_PI.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_API.r43</file>
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Definitions.h</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.h</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.r43</file>
     </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
     <file>
       <name>$PROJ_DIR$\..\Peripheral_Interfaces\Timer_A_UART\BSL430_PI_TA.c</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 5</file>
+          <file> 6</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 14</file>
+          <file> 8</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 4 10 19 11 8 16 15</file>
+          <file> 4 15 17 12 14 19 18</file>
         </tool>
       </inputs>
     </file>
@@ -62,7 +71,7 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 16 15 9 8 4 10 19 11</file>
+          <file> 19 18 13 14 4 15 17 12</file>
         </tool>
       </inputs>
     </file>
@@ -71,17 +80,17 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 18</file>
+          <file> 16</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 12</file>
+          <file> 11</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 4 10 19 11 9 15</file>
+          <file> 4 15 17 12 13 18</file>
         </tool>
       </inputs>
     </file>
@@ -90,7 +99,7 @@
       <outputs>
         <tool>
           <name>A430</name>
-          <file> 6</file>
+          <file> 5</file>
         </tool>
       </outputs>
     </file>
@@ -99,18 +108,9 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 12 7 14</file>
+          <file> 11 7 8</file>
         </tool>
       </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 13</file>
-        </tool>
-      </outputs>
     </file>
   </configuration>
   <configuration>

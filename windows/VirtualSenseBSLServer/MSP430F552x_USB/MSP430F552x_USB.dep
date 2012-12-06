@@ -6,41 +6,8 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\UsbApi.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\cstartup.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\UsbIsr.r43</file>
-      <file>$PROJ_DIR$\..\API\BSL430_API.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\defUSB.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usbapi.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\BSL430_USB_PI.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_UCS.r43</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\BSL430_PI.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\Proj_Settings.h</file>
-      <file>$PROJ_DIR$\BSL_Device_File.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\device.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\msp430x552x.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\types.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\hal_UCS.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
       <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.h</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usb.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.pbi</file>
-      <file>$PROJ_DIR$\Debug\Exe\MSP430F552x_USB.d43</file>
       <file>$PROJ_DIR$\Debug\Obj\hal_UCS.pbi</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\hal_UCS.c</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\cstartup.s43</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\BSL430_USB_PI.c</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\descriptors.c</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbHidReq.c</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usb.c</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbApi.c</file>
-      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</file>
-      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbIsr.c</file>
-      <file>$PROJ_DIR$\..\API\BSL430_API.c</file>
-      <file>$PROJ_DIR$\BSL430_Low_Level_Init.s43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\usb.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_USB_PI.pbi</file>
@@ -52,13 +19,46 @@
       <file>$PROJ_DIR$\Debug\Obj\usb.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\descriptors.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\UsbHidReq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\UsbApi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cstartup.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\UsbIsr.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.r43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usbapi.h</file>
+      <file>$PROJ_DIR$\..\API\BSL430_API.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\defUSB.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_UCS.r43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\BSL430_PI.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_USB_PI.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\hal_UCS.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\cstartup.s43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\BSL430_USB_PI.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\descriptors.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbHidReq.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usb.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbApi.c</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\UsbIsr.c</file>
+      <file>$PROJ_DIR$\..\API\BSL430_API.c</file>
+      <file>$PROJ_DIR$\BSL430_Low_Level_Init.s43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\Proj_Settings.h</file>
+      <file>$PROJ_DIR$\BSL_Device_File.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\msp430x552x.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\types.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\MSP430F552x_USB.d43</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\hal_UCS.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.pbi</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\device.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\Peripheral_Interfaces\USB\usb.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 22</file>
+          <file> 39</file>
         </tool>
       </outputs>
     </file>
@@ -67,11 +67,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 8</file>
+          <file> 20</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 23</file>
+          <file> 1</file>
         </tool>
       </outputs>
     </file>
@@ -80,7 +80,7 @@
       <outputs>
         <tool>
           <name>A430</name>
-          <file> 1</file>
+          <file> 14</file>
         </tool>
       </outputs>
     </file>
@@ -89,17 +89,17 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 7</file>
+          <file> 22</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 37</file>
+          <file> 4</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 12 14 10 17 15 11 13 4 20 16 5 19 9 3</file>
+          <file> 36 37 23 44 38 35 42 19 45 40 17 0 21 18</file>
         </tool>
       </inputs>
     </file>
@@ -108,11 +108,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 41</file>
+          <file> 8</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 44</file>
+          <file> 11</file>
         </tool>
       </outputs>
     </file>
@@ -121,11 +121,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 40</file>
+          <file> 7</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 45</file>
+          <file> 12</file>
         </tool>
       </outputs>
     </file>
@@ -134,11 +134,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 36</file>
+          <file> 3</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 43</file>
+          <file> 10</file>
         </tool>
       </outputs>
     </file>
@@ -147,11 +147,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 38</file>
+          <file> 5</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 0</file>
+          <file> 13</file>
         </tool>
       </outputs>
     </file>
@@ -160,11 +160,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 35</file>
+          <file> 2</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 21</file>
+          <file> 41</file>
         </tool>
       </outputs>
     </file>
@@ -173,11 +173,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 2</file>
+          <file> 15</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 39</file>
+          <file> 6</file>
         </tool>
       </outputs>
     </file>
@@ -186,11 +186,11 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 6</file>
+          <file> 16</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 18</file>
+          <file> 43</file>
         </tool>
       </outputs>
     </file>
@@ -199,7 +199,7 @@
       <outputs>
         <tool>
           <name>A430</name>
-          <file> 42</file>
+          <file> 9</file>
         </tool>
       </outputs>
     </file>

@@ -605,7 +605,7 @@ static int enter_via_dtr_rts(struct flash_bsl5_device *dev)
 	
 	sport_t fd = dev->serial_fd;
 
-	setDTR(fd, 0);	
+	setDTR(fd, 1);	//DTR is now the pin 14 of conn3 which need to be hight
 	setRTS(fd, 0);
 	entry_delay( );
 	setRTS(fd, 1);	

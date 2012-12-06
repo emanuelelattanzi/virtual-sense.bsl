@@ -9,31 +9,68 @@
       <file>$PROJ_DIR$\..\API\BSL430_API.c</file>
       <file>$PROJ_DIR$\BSL430_Low_Level_Init.s43</file>
       <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</file>
-      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.h</file>
+      <file>$PROJ_DIR$\..\API\BSL430_API.h</file>
       <file>$PROJ_DIR$\..\Peripheral_Interfaces\Timer_A_UART\BSL430_PI_TA.c</file>
       <file>$PROJ_DIR$\..\Peripheral_Interfaces\BSL430_PI.h</file>
-      <file>$PROJ_DIR$\..\API\BSL430_API.h</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$TOOLKIT_DIR$\inc\msp430x552x.h</file>
       <file>$PROJ_DIR$\BSL_Device_File.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Definitions.h</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_Low_Level_Init.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\MSP430F552x_TA_UART.pbd</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Definitions.h</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_TA.pbi</file>
       <file>$PROJ_DIR$\Debug\Exe\MSP430F552x_TA_UART.d43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_TA.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_Command_Interpreter.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_API.r43</file>
+      <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.h</file>
     </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+    </file>
     <file>
       <name>$PROJ_DIR$\..\API\BSL430_API.c</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 20</file>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 8 7 6 3 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BSL430_Low_Level_Init.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -43,34 +80,16 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 9 8 10 7 6 11</file>
+          <file> 20 13 3 5 9 8 7 6</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 17</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\BSL430_Low_Level_Init.s43</name>
-      <outputs>
-        <tool>
-          <name>A430</name>
-          <file> 12</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</name>
+      <name>$PROJ_DIR$\..\Peripheral_Interfaces\Timer_A_UART\BSL430_PI_TA.c</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 19</file>
+          <file> 17</file>
         </tool>
         <tool>
           <name>BICOMP</name>
@@ -80,26 +99,7 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 3 11 6 5 9 8 10 7</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Peripheral_Interfaces\Timer_A_UART\BSL430_PI_TA.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 18</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 16</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 9 8 10 7 5 3 11</file>
+          <file> 9 8 7 6 5 20 13</file>
         </tool>
       </inputs>
     </file>
@@ -108,7 +108,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 14 15 16</file>
+          <file> 12 14 15</file>
         </tool>
       </inputs>
     </file>

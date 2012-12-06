@@ -235,7 +235,7 @@ BSL_Protect:
               bit.b   #BIT5,&P2IN             ; P2.5 (In) == 1?
               
               ;bit     #SYSBSLIND,&SYSCTL      ;check for BSL start request ;LELE Commented to force BSL entering
-              jnz      BCC2BSL                ; LELE: commented to enter always on bsl mode (for testing) was jz
+              jz      BCC2BSL                ; LELE: commented to enter always on bsl mode (for testing) BSL mode if pin hight
               ;jmp      BCC2BSL                ; LELE: commented to enter always on bsl mode (for testing)
               
               bis.b   #BIT1,&P8DIR            ; Set P8.0 to output direction

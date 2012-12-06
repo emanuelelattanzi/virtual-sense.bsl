@@ -6,12 +6,12 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Exe\CC430F613x_USCI_UART.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BSL430_Low_Level_Init.r43</file>
       <file>$PROJ_DIR$\..\Command_Interpreter\BSL430_Command_Interpreter.c</file>
       <file>$PROJ_DIR$\..\API\BSL430_API.c</file>
       <file>$PROJ_DIR$\BSL430_Low_Level_Init.s43</file>
       <file>$PROJ_DIR$\..\Peripheral_Interfaces\USCIA_UART\BSL430_PI_USCIA.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\BSL430_Low_Level_Init.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\CC430F613x_USCI_UART.d43</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_USCIA.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_API.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\BSL430_PI_USCIA.r43</file>
@@ -24,7 +24,7 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 0</file>
+          <file> 5</file>
         </tool>
       </outputs>
     </file>
@@ -59,7 +59,7 @@
       <outputs>
         <tool>
           <name>A430</name>
-          <file> 5</file>
+          <file> 0</file>
         </tool>
       </outputs>
     </file>
