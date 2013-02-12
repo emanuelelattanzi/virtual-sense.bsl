@@ -443,12 +443,9 @@ static int flash_bsl5_unlock(struct flash_bsl5_device *dev)
 
 	uint8_t response_buffer[16];
 	int ret;
-	// Sending password before erase command to generate an auto-erase (LELE)
 	
-	rx_password_cmd[32] = 0xfa;
 	flash_bsl5_send(dev, rx_password_cmd,
 			   dev->long_password ? 33 : 17); 
-	rx_password_cmd[32] = 0xff; 
 
 	/* mass erase - this might wipe Information Memory on some devices */
         /* (according to the documentation it should not) */
@@ -609,7 +606,7 @@ static int enter_via_dtr_rts(struct flash_bsl5_device *dev)
 	setRTS(fd, 0);
 	entry_delay( );
 	setRTS(fd, 1);	
-	usleep(1000);
+	usleep(500000);
 	
 #if 0
 	/* drive RST# line low */
@@ -672,7 +669,7 @@ static void program_i2c_switch(struct flash_bsl5_device *dev){
 	init_uart_i2c(dev->serial_fd);
 	i2c_start(dev->serial_fd);
 	i2c_write(dev->serial_fd, dev_address);
-	i2c_write(dev->serial_fd, 0x02); // tutti chiusi
+	i2c_write(dev->serial_fd, 0xff); // tutti chiusi
 	i2c_stop(dev->serial_fd);
 	printf("I2C programmed\n");	
 	/*i2c_start(dev->serial_fd);
