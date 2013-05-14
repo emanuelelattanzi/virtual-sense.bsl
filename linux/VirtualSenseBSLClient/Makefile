@@ -80,14 +80,10 @@ clean:
 	rm -f */*.o
 	rm -f $(BINARY)
 
-install: $(BINARY) mspdebug.man
+install: $(BINARY) virtualsense-bsl
 	mkdir -p $(DESTDIR)$(BINDIR)
 	$(INSTALL) -m 0755 $(BINARY) $(DESTDIR)$(BINDIR)
-	mkdir -p $(DESTDIR)$(MANDIR)
-	$(INSTALL) -m 0644 mspdebug.man $(DESTDIR)$(MANDIR)/mspdebug.1
-	mkdir -p $(DESTDIR)$(LIBDIR)/mspdebug
-	$(INSTALL) -m 0644 ti_3410.fw.ihex \
-		$(DESTDIR)$(LIBDIR)/mspdebug/ti_3410.fw.ihex
+	mkdir -p $(DESTDIR)$(LIBDIR)/virtualsense-bsl
 
 .SUFFIXES: .c .o
 
